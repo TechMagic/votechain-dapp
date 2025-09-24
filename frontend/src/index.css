@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App-header {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.App-header h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.btn-connect,
+.btn-add,
+.btn-remove,
+.btn-deploy {
+  padding: 12px 24px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-connect {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-connect:hover {
+  background-color: #0056b3;
+}
+
+.btn-add {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #218838;
+}
+
+.btn-remove {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-remove:hover {
+  background-color: #c82333;
+}
+
+.btn-deploy {
+  background-color: #17a2b8;
+  color: white;
+  font-size: 1.2rem;
+  padding: 16px 32px;
+  margin-top: 2rem;
+}
+
+.btn-deploy:hover:not(:disabled) {
+  background-color: #138496;
+}
+
+.btn-deploy:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.wallet-info,
+.form-group,
+.contract-address {
+  margin: 1.5rem 0;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.proposal-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.proposal-item input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.contract-address {
+  background-color: #e9ecef;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.contract-address a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contract-address a:hover {
+  text-decoration: underline;
+}
+
+.contract-address code {
+  display: block;
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  overflow-wrap: break-word;
+}
+
+small {
+  color: #666;
+  font-size: 0.9rem;
+}
