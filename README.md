@@ -70,21 +70,23 @@ http://localhost:5173
 
 ## 📂 Structure
 
+```tree
 votechain-dapp/
-── contracts/
-    -- Voting.sol
-── scripts/
-    -- deploy.mjs
-── frontend/
-    -- src/
-        -- App.tsx
-        -- ...
-── package.json
-── .env
-── hardhat.config.mjs
-── package.json
-── .gitignore
-── README.md     
+├── contracts/
+│   └── Voting.sol
+├── scripts/
+│   └── deploy.mjs
+├── frontend/
+│   ├── src/
+│   │   ├── App.tsx
+│   │   └── ...
+│   └── package.json
+├── .env
+├── hardhat.config.mjs
+├── package.json
+├── .gitignore
+└── README.md     
+```
 
 ## 👨‍💻 Author
 
